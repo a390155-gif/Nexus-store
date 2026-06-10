@@ -38,8 +38,12 @@ Reemplaza `<password>` por tu contraseña real (si tiene caracteres especiales, 
 
 ### Paso 2 — Desplegar en Render
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https://github.com/a390155-gif/Nexus-store)
+
+O manualmente:
+
 1. Entra a [render.com](https://render.com) e inicia sesión con **GitHub**.
-2. Ve a **Dashboard** → **New** → **Blueprint**.
+2. Abre el enlace de arriba o ve a **Dashboard** → **New** → **Blueprint**.
 3. Conecta el repositorio **a390155-gif/Nexus-store**.
 4. Render detectará el archivo `render.yaml`. En **Environment Variables** pega tu URI:
 

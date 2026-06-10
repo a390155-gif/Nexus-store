@@ -6,6 +6,8 @@ services:
     name: nexus-store
     runtime: node
     plan: free
+    repo: https://github.com/a390155-gif/Nexus-store
+    branch: main
     rootDir: ecommerce/backend
     buildCommand: npm install
     startCommand: npm start
