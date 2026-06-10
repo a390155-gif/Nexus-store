@@ -22,7 +22,7 @@ $ownerId = $owners[0].owner.id
 
 $body = @{
   type         = "web_service"
-  name         = "nexus-store"
+  name         = "nexus-store-a390155"
   ownerId      = $ownerId
   repo         = "https://github.com/a390155-gif/Nexus-store"
   branch       = "main"
@@ -49,7 +49,7 @@ try {
   Write-Output "Espera 2-5 min y abre $url"
 } catch {
   $existing = Invoke-RestMethod -Uri "https://api.render.com/v1/services?limit=20" -Headers $headers
-  $match = $existing | Where-Object { $_.service.name -eq "nexus-store" }
+  $match = $existing | Where-Object { $_.service.name -eq "nexus-store-a390155" }
   if ($match) {
     $serviceId = $match[0].service.id
     $envBody = @{ envVars = @(@{ key = "MONGODB_URI"; value = $MongoUri }) } | ConvertTo-Json -Depth 4

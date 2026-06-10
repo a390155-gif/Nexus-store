@@ -3,7 +3,7 @@
 
 services:
   - type: web
-    name: nexus-store
+    name: nexus-store-a390155
     runtime: node
     plan: free
     repo: https://github.com/a390155-gif/Nexus-store
