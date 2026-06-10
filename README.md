@@ -24,7 +24,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/TU-USUARIO/nexus-store.git
+git remote add origin https://github.com/a390155-gif/Nexus-store.git
 git push -u origin main
 ```
 
