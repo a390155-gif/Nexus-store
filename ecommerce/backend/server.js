@@ -54,9 +54,7 @@ app.get('/api/health', (req, res) => {
 
 // Servir frontend estático (mismo origen para API y UI en producción/GitHub)
 const frontendPath = path.join(__dirname, '../frontend');
-if (require('fs').existsSync(frontendPath)) {
-  app.use(express.static(frontendPath));
-}
+app.use(express.static(frontendPath));
 
 // ─── Manejador de errores ──────────────────────────────────────────────────────
 
