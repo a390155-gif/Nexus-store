@@ -19,4 +19,4 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: MONGODB_URI
-        value: mongodb+srv://a390155_db_user:224426628816DB@cluster0.o9a3opl.mongodb.net/?appName=Cluster0
+        value: mongodb+srv://a390155_db_user:224426628816Db@cluster0.o9a3opl.mongodb.net/?appName=Cluster0
