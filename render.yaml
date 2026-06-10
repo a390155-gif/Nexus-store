@@ -5,10 +5,12 @@ services:
   - type: web
     name: nexus-store
     runtime: node
+    plan: free
     rootDir: ecommerce/backend
     buildCommand: npm install
     startCommand: npm start
     healthCheckPath: /api/health
+    autoDeploy: true
     envVars:
       - key: NODE_ENV
         value: production

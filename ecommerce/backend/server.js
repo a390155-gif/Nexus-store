@@ -73,10 +73,17 @@ app.use('/api/*', (req, res) => {
 const PORT = process.env.PORT || 5000;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/ecommerce';
 
+const { seedDatabase } = require('./config/seedData');
+
 mongoose
   .connect(MONGODB_URI)
-  .then(() => {
+  .then(async () => {
     console.log('✅ Conectado a MongoDB exitosamente');
+
+    if (process.env.NODE_ENV === 'production') {
+      await seedDatabase({ reset: false });
+    }
+
     app.listen(PORT, () => {
       console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
       console.log(`📚 Entorno: ${process.env.NODE_ENV || 'development'}`);
