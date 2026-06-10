@@ -69,6 +69,94 @@ const sampleProducts = [
     image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop',
     stock: 45,
     category: 'Electrónica'
+  },
+  {
+    name: 'Monitor Gaming 27" 144Hz',
+    description: 'Monitor IPS de 27 pulgadas con resolución 2560x1440, 144Hz, 1ms de tiempo de respuesta y HDR10.',
+    price: 5499.00,
+    image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop',
+    stock: 15,
+    category: 'Electrónica'
+  },
+  {
+    name: 'Laptop Gamer i7',
+    description: 'Laptop con procesador Intel Core i7, 16GB RAM, RTX 3060, SSD 512GB y pantalla 144Hz.',
+    price: 18999.00,
+    image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop',
+    stock: 10,
+    category: 'Electrónica'
+  },
+  {
+    name: 'Tablet Gráfica Digital',
+    description: 'Tableta gráfica con área activa de 10x6 pulgadas, 8192 niveles de presión y stylus sin batería.',
+    price: 1299.00,
+    image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=300&fit=crop',
+    stock: 25,
+    category: 'Periféricos'
+  },
+  {
+    name: 'Silla Ergonómica de Oficina',
+    description: 'Silla con soporte lumbar ajustable, reposabrazos 4D, malla transpirable y base de aluminio.',
+    price: 3499.00,
+    image: 'https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?w=400&h=300&fit=crop',
+    stock: 20,
+    category: 'Hogar'
+  },
+  {
+    name: 'Cable USB-C Multipuerto',
+    description: 'Hub USB-C con 4 puertos USB 3.0, HDMI 4K, SD/TF card reader y USB-C PD 100W.',
+    price: 599.00,
+    image: 'https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400&h=300&fit=crop',
+    stock: 50,
+    category: 'Accesorios'
+  },
+  {
+    name: 'Disco SSD Externo 1TB',
+    description: 'Disco SSD externo USB 3.2 Gen 2 con 1TB de capacidad, velocidad de 1050MB/s y carcasa resistente.',
+    price: 1599.00,
+    image: 'https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400&h=300&fit=crop',
+    stock: 30,
+    category: 'Electrónica'
+  },
+  {
+    name: 'Auriculares Gaming',
+    description: 'Auriculares gaming con sonido 7.1 surround, micrófono con cancelación de ruido y almohadillas de espuma viscoelástica.',
+    price: 899.00,
+    image: 'https://images.unsplash.com/photo-1599669454699-248893623440?w=400&h=300&fit=crop',
+    stock: 35,
+    category: 'Electrónica'
+  },
+  {
+    name: 'Cargador Rápido 65W',
+    description: 'Cargador GaN de 65W con 2 puertos USB-C y 1 puerto USB-A, compatible con laptops y dispositivos móviles.',
+    price: 449.00,
+    image: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=400&h=300&fit=crop',
+    stock: 60,
+    category: 'Accesorios'
+  },
+  {
+    name: 'Teclado Inalámbrico Compacto',
+    description: 'Teclado 60% inalámbrico con switches mecánicos, batería de 2000mAh y retroiluminación RGB.',
+    price: 1299.00,
+    image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop',
+    stock: 25,
+    category: 'Periféricos'
+  },
+  {
+    name: 'Soporte Monitor Ajustable',
+    description: 'Soporte de monitor con brazo articulado, capacidad para hasta 27 pulgadas y ajuste de altura/ángulo.',
+    price: 799.00,
+    image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop',
+    stock: 40,
+    category: 'Accesorios'
+  },
+  {
+    name: 'Mouse Pad XL',
+    description: 'Mouse pad de gran tamaño (900x400mm) con superficie de tela antideslizante y bordes cosidos.',
+    price: 299.00,
+    image: 'https://images.unsplash.com/photo-1563299796-1358c8db8b5c?w=400&h=300&fit=crop',
+    stock: 80,
+    category: 'Accesorios'
   }
 ];
 
