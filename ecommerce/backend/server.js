@@ -80,10 +80,10 @@ mongoose
   .then(async () => {
     console.log('✅ Conectado a MongoDB exitosamente');
 
-    // Seed automático desactivado en producción para evitar errores
-    // if (process.env.NODE_ENV === 'production') {
-    //   await seedDatabase({ reset: false });
-    // }
+    // Seed automático en producción solo si la base está vacía
+    if (process.env.NODE_ENV === 'production') {
+      await seedDatabase({ reset: false });
+    }
 
     app.listen(PORT, () => {
       console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
